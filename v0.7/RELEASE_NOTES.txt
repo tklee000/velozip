@@ -1,0 +1,16 @@
+VeloZip 0.7 for Windows x64
+===========================
+
+Release date: 2026-08-02
+
+- Adds ZIP compression policies for adaptive Store/Deflate selection, forced
+  Store, and forced Deflate while retaining adaptive selection as the default.
+- Adds an optional validated ZIP entry root for package-relative entry names and
+  rejects inputs or resolved paths that escape it.
+- Adds an optional policy to omit explicit directory entries while documenting
+  the loss of empty directories and directory metadata.
+- Updates post-create verification to accept only the implicit parent directories
+  required by expected file entries, including archives whose explicit directory
+  entries are omitted.
+- Identifies library author tklee000 and library version 0.7 in its headers.
+- Updates velozip and VeloZipWin product and file versions to 0.7.
