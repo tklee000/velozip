@@ -1,0 +1,18 @@
+VeloZip 0.8 for Windows x64
+===========================
+
+Release date: 2026-08-06
+
+- Uses the Explorer compression and extraction progress dialog for operations
+  started from the main archive window.
+- Keeps the main window modal while compression or extraction is running and
+  returns to it after cooperative cancellation.
+- Updates the progress dialog typography and replaces its letter mark with the
+  VeloZip application icon.
+- Starts the extraction-folder picker in the opened archive's directory.
+- Localizes native C/C++ message boxes using the selected application language
+  across all 11 supported languages.
+- Updates velozip, VeloZipWin, and library versions to 0.8.
+
+Source commit:
+https://github.com/tklee000/velozip_dev/commit/9c45135
