@@ -11,11 +11,11 @@ are maintained in the [VeloZip development repository](https://github.com/tklee0
 
 ## Latest release
 
-### VeloZip 0.8 for Windows x64
+### VeloZip 0.9 for Windows x64
 
-- [Download the complete ZIP package](https://github.com/tklee000/velozip/releases/download/v0.8/velozip-v0.8-windows-x64.zip)
-- [View the GitHub release](https://github.com/tklee000/velozip/releases/tag/v0.8)
-- [Browse the individual release files](v0.8/)
+- [Download the complete ZIP package](https://github.com/tklee000/velozip/releases/download/v0.9/velozip-v0.9-windows-x64.zip)
+- [View the GitHub release](https://github.com/tklee000/velozip/releases/tag/v0.9)
+- [Browse the individual release files](v0.9/)
 - [Verify the package checksum](SHA256SUMS.txt)
 
 ## Package contents
@@ -38,7 +38,7 @@ intentionally excluded from this repository.
 
 ## Quick start
 
-1. Download and extract `velozip-v0.8-windows-x64.zip`.
+1. Download and extract `velozip-v0.9-windows-x64.zip`.
 2. Run `VeloZipWin.exe` for the graphical interface.
 3. Run `velozip.exe --help` for command-line usage.
 

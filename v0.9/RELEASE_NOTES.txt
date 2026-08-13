@@ -1,0 +1,18 @@
+VeloZip 0.9 for Windows x64
+===========================
+
+Release date: 2026-08-13
+
+- Makes post-create verification opt-in through the CLI --verify option and
+  avoids the extra extraction pass for GUI and Explorer compression.
+- Accelerates ZIP extraction with direct mapped outputs, compact Huffman
+  tables, improved work scheduling, and cached path operations.
+- Retains locked-directory and exclusive-output protections during ZIP
+  extraction, including safe atomic replacement of existing files.
+- Improves 7z extraction with parallel output preparation and independent
+  LZMA2 reset-segment decoding while retaining CRC-32 verification.
+- Adds split-archive handling and extended-length Windows path support.
+- Updates velozip, VeloZipWin, and library versions to 0.9.
+
+Source commit:
+https://github.com/tklee000/velozip_dev/commit/887ab2c
