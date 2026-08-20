@@ -1,0 +1,19 @@
+VeloZip 0.91 for Windows x64
+============================
+
+Release date: 2026-08-20
+
+- Accelerates default level-5 ZIP creation by retaining Deflate match state
+  across adjacent blocks and bounding the throughput path's match search.
+- Improves detection of weakly compressible binary data while preserving the
+  low-overhead Store path for high-entropy regions.
+- In eight order-balanced MyVideoCut comparisons with VeloZip 0.9, reduces
+  median creation time from 4.514668 seconds to 4.098560 seconds, wins all
+  eight pairs, and reduces the archive by 4,997,731 bytes (0.55%).
+- Passes all 16 official 7-Zip integrity checks in the comparison and the full
+  ZIP/7z roundtrip, compatibility, memory-codec, and block-boundary regression
+  tests on the final Release x64 build.
+- Updates velozip, VeloZipWin, and library versions to 0.91.
+
+Source commit:
+https://github.com/tklee000/velozip_dev/commit/9eb42b05b125df39255f018194119f24fe433a9b
