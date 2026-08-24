@@ -1,0 +1,19 @@
+VeloZip 1.0 for Windows x64
+===========================
+
+Release date: 2026-08-24
+
+- Speeds up long-reset LZMA2 extraction with the public-domain 7-Zip 26.02
+  x64 assembly decoder while retaining VeloZip's optimized short-reset path.
+- Removes repeated CRC-32 combination setup on solid 7z archives containing
+  many files and reserves the exact worst-case LZMA2 output bound.
+- Retains the 0.92 benchmark record in which VeloZip won all eight paired
+  extraction runs on both Bandizip- and VeloZip-produced MyVideoCut archives.
+- Promotes the measured 0.92 codec implementation to the stable 1.0 release
+  without changing or rerunning the recorded benchmarks.
+- Passes Release x64 compilation, ZIP and 7z create/verify/extract SHA-256
+  roundtrips, the memory-codec example, and official 7-Zip integrity tests.
+- Updates velozip, VeloZipWin, and library versions to 1.0.
+
+Source commit:
+https://github.com/tklee000/velozip_dev/commit/e744a42397a9b01e70d505878367098a50efb0ba
