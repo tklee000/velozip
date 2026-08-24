@@ -1,0 +1,20 @@
+VeloZip 1.01 for Windows x64
+============================
+
+Release date: 2026-08-24
+
+- Adds a dependency-free C++ ZipCrypto decoder for extracting traditional
+  PKZIP password-protected ZIP entries.
+- Detects encrypted ZIP files opened from Windows Explorer, prompts for the
+  archive password before extraction, and prompts again after a wrong password.
+- Keeps existing WinZip AES-256 AE-1/AE-2 extraction and AES-256 AE-2 creation
+  support alongside the new legacy ZIP compatibility path.
+- Passes the Release x64 solution build, a standard 7-Zip ZipCrypto
+  correct-password SHA-256 roundtrip, wrong-password rejection, a normal ZIP
+  create/verify/extract roundtrip, encrypted sample detection, and the memory
+  codec example.
+- Updates velozip, VeloZipWin, library, documentation, theme, and download
+  metadata to version 1.01.
+
+Source commit:
+https://github.com/tklee000/velozip_dev/commit/77948a55d2dc7867386dba06d874836f85fe8403
