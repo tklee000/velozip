@@ -1,0 +1,21 @@
+VeloZip 1.1 for Windows x64
+===========================
+
+Release date: 2026-09-12
+
+- Adds native 7z AES-256 file-content encryption for standard 7z archive
+  creation and extraction.
+- Adds optional encrypted 7z headers so file and directory names remain hidden
+  until the correct password is entered.
+- Adds VeloZipWin controls for 7z AES-256 and file-name encryption, including
+  password prompting and retry support when opening or extracting archives.
+- Adds matching CLI password support and the --encrypt-file-names option.
+- Keeps the optimized unencrypted 7z compression path unchanged; its output
+  remains byte-identical to VeloZip 1.01 with no measured speed regression.
+- Passes the Release x64 solution build, official 7-Zip 26.01 interoperability,
+  encrypted-header verification, and SHA-256 create/extract roundtrip tests.
+- Updates velozip, VeloZipWin, library, documentation, theme, and download
+  metadata to version 1.1.
+
+Source commit:
+https://github.com/tklee000/velozip_dev/commit/8d01e8d57dbb614be50deb942009c192cfa6c895

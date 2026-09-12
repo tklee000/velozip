@@ -1,1 +1,1 @@
-7b13eb0879cd8e11274e6b02a7a1c496367244df8a6d92e34994d424d8687592  velozip-v1.01-windows-x64.zip
+9db7dec2fa45cb984d39dafa57d33bc0afbc4222fd594c725e9710ab8f422b82  velozip-v1.1-windows-x64.zip
